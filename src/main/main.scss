@@ -1,0 +1,11 @@
+.sing{
+    position: absolute;
+    transform: translate(1429px, 26px);
+    width: 76px;
+    height: 27px;
+    opacity: 0;
+    &:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
