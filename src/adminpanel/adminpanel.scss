@@ -1,0 +1,90 @@
+// .borA{
+//     transition: .2s;
+//     &:hover{
+//         box-shadow: 0 0 7px 1px rgb(125, 158, 238);
+//         cursor: pointer; 
+//     }
+// }
+// .p1{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(351px, 135px);
+//     // background-color: red;
+//     width: 330px;
+//     height: 120px;
+// }
+// .p2{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(706px, 135px);
+//     // background-color: red;
+//     width: 330px;
+//     height: 120px;
+// }
+// .p3{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(1060px, 135px);
+//     // background-color: red;
+//     width: 330px;
+//     height: 120px;
+// }
+// .p4{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(351px, 275px);
+//     // background-color: red;
+//     width: 1039px;
+//     height: 355px;
+// }
+// .p5{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(351px, 655px);
+//     // background-color: red;
+//     width: 1039px;
+//     height: 401px;
+// }
+// .p6{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 5px;
+//     transform: translate(1457px, 135px);
+//     // background-color: red;
+//     width: 398px;
+//     height: 912px;
+// }
+
+
+#Контур_24-2{
+    animation: animcon 1.5s ease-in-out;
+
+}
+#Контур_25-2{
+    animation: animcon 3s ease-in-out;
+}
+
+#Контур_26-2{
+    animation: animcon 5s ease-in-out;
+}
+
+@keyframes animcon{
+    0%{
+        opacity: 0;  
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}

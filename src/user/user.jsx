@@ -1,8 +1,8 @@
 import React, {Fragment,useState, useEffect} from "react";
-import './main.scss';
+import './user.scss';
 
 import SVG from 'react-inlinesvg';
-import mainsvg from '../img/main.svg';
+import seisvg from '../img/sei.svg';
 import logo from '../img/logo.svg';
 
 import {Link} from "react-router-dom";
@@ -12,7 +12,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const main = () => { 
+export const user = () => { 
     
 
     return(
@@ -22,9 +22,10 @@ export const main = () => {
                 <Link to="/signin" className="sing"></Link>
                 <Link to="/sei666" className="glav"></Link>
                 <Link to="/merpro" className="linkMerPro"></Link>
-                <SVG src={mainsvg}/>
+                <SVG src={seisvg}/>
 
                 <Link to="/myMountain" className="myMountainCss"></Link>
+
 
                 
                 <div className="borO p1"></div>

@@ -1,0 +1,22 @@
+.sei{
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // transform: translate(261px, 0px);
+    width: 140px;
+    height: 40px;
+    // opacity: 0;
+    // background-color: red;
+    // background-color: transparent;
+    border: 0;
+    transition: .2s;
+    margin: 20px 0 0 0;
+    &:after{
+        content: "Войти";
+    }
+    &:hover{
+        // background-color: red;
+        // box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+        cursor: pointer;
+    } 
+}

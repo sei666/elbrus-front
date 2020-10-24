@@ -1,0 +1,65 @@
+#_000000ff{
+     animation: animgor 5s ease-in-out forwards;
+}
+
+.glavGor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(261px, 0px);
+    width: 88px;
+    height: 80px;
+    // opacity: 0;
+    // background-color: red;
+    // background-color: transparent;
+    border: 0;
+    transition: .2s;
+    &:hover{
+        // background-color: red;
+        // box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+        cursor: pointer;
+    } 
+}
+.cap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(800px, 435px);
+    width: 150px;
+    height: 150px;
+
+    transition: .2s;
+
+    animation: animcap 1s ease-in-out forwards;
+    animation-delay: 5s;
+    opacity: 0;
+    // &:hover{
+    //     // background-color: red;
+    //     // box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+    //     cursor: pointer;
+    // } 
+}
+
+
+@keyframes animcap{
+    0%{
+        opacity: 0;  
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+
+
+
+@keyframes animgor{
+    0%{
+      transform: translate(330px, 917px);  
+    }
+    100%{
+        transform: translate(853px, 635px);
+        
+    }
+}

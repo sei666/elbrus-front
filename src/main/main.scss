@@ -2,10 +2,167 @@
     position: absolute;
     transform: translate(1429px, 26px);
     width: 76px;
-    height: 27px;
-    opacity: 0;
+    height: 28px;
+    // opacity: 0;
+    background-color: transparent;
+    border: 0;
+    transition: .2s;
     &:hover{
-        background-color: red;
+        // background-color: red;
+        box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
         cursor: pointer;
     }
+}
+
+.reg{
+    position: absolute;
+    transform: translate(1520px, 26px);
+    width: 140px;
+    height: 28px;
+    // opacity: 0;
+    background-color: transparent;
+    border: 0;
+    transition: .2s;
+    &:hover{
+        // background-color: red;
+        box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+        cursor: pointer;
+    } 
+}
+
+.glav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(855px, 194px);
+    width: 88px;
+    height: 25px;
+    // opacity: 0;
+    // background-color: red;
+    background-color: transparent;
+    border: 0;
+    transition: .2s;
+    &:hover{
+        // background-color: red;
+        // box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+        cursor: pointer;
+    } 
+}
+
+.myMountainCss{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(1140px, 30px);
+    width: 88px;
+    height: 25px;
+    // opacity: 0;
+    // background-color: red;
+    // background-color: transparent;
+    border: 0;
+    transition: .2s;
+    &:hover{
+        // background-color: red;
+        // box-shadow: 0 0 5px 1px rgb(125, 158, 238); 
+        cursor: pointer;
+    } 
+}
+
+
+
+
+
+
+.borO{
+    transition: .2s;
+    &:hover{
+        box-shadow: 0 0 7px 1px rgb(125, 158, 238);
+        cursor: pointer; 
+    }
+}
+.p1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(430px, 270px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+.p2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(800px, 270px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+.p3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(1170px, 270px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+// #Прямоугольник_8-2{
+//     transform: translate(50px);
+// }
+.p4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(430px, 710px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+.p5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(800px, 710px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+.p6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transform: translate(1170px, 710px);
+    // background-color: red;
+    width: 320px;
+    height: 390px;
+}
+
+#Мероприятия_,#Организаторам, #Моя_гора, #Топ_участников,#Актуальные,#Прошедшие{
+    transition: .2s;
+    cursor: pointer;
+    &:hover{
+        fill: rgb(125, 158, 238);
+    }
+}
+
+#Линия_32, #Линия_2{
+    display: none;
+}
+
+.linkMerPro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 20px;
+    // background-color: red;
+    transform: translate(981px, 200px);
+    transition: .2s;
 }
